@@ -1,0 +1,151 @@
+body{
+    box-sizing: border-box;
+    background-color:rgb(101, 6, 179);
+}
+.form-back{
+    background-image:url("back.avif");
+    width:70vw;
+    height:100vh;
+    position:absolute;
+    margin:auto;
+    right:15vw;
+   
+    margin-bottom: 50px;
+    background-size: cover;
+}
+
+.form-register{
+    background-color:white;
+    width:25rem;
+    height:80vh;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgb(172, 170, 170);
+    position: absolute;
+    left:5vw;
+    top:10vh;
+}
+.register-input{
+    margin:10px;
+    padding:10px;
+}
+h1{
+    text-align: center;
+}
+.full-name  label, .input{
+    display:block;
+    margin:10px;
+}
+.Email  label, .input{
+    display:block;
+    margin:10px;
+}
+.Password  label, .input{
+    display:block;
+    margin:10px;
+}
+.Password-confirm  label, .input{
+    display:block;
+    margin:10px;
+}
+label{
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+input{
+    font-size: 0.75rem;
+    border:3px solid rgb(228, 223, 223);
+    height:1.2rem;
+    width:15rem;
+}
+.capta-check {
+
+height:50px;
+margin:10px;
+width:200px;
+display: flex;
+text-align: center;
+flex-wrap: nowrap;
+flex-direction: row;
+justify-content:center;
+margin-left:0px;
+gap:10px;
+border: 2px solid gray;
+position: absolute;
+margin-right:10px;
+}
+.capta-check h2{
+    position: absolute;
+    right:80px;
+}
+.capta-check
+label{
+    position: relative;
+    right:20px;
+    width:60rem;
+    font-size:15px;
+}
+button{
+    width:15rem;
+    height:5vh;
+    background-color: rgb(101, 6, 179);
+    position: relative;
+    left:2vw;
+    bottom: -8vh;
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 20px;
+    color:white;
+}
+p{
+    font-size: 0.8rem;
+    padding:3rem;
+    
+}
+  .about-form p{
+    width:28vw;
+    height:10vh;
+    color:rgb(46, 10, 10);
+    position: relative;
+    left:50vw;
+    top:28vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    background-position: 15px; 
+   
+ }
+ .sign-in{
+    top:25vh;
+    left:800px;
+    padding:5px;
+ }
+ .about-form p{
+    font-size:1.1rem;
+ }
+ .about-form button{
+    width:5rem;
+    bottom: 60px;
+ }
+ @media screen and (max-width:780px){
+    body{
+        background-color: aliceblue; 
+        
+    }
+    .form-back{
+        min-width: 600px;
+    
+    
+    }
+    .form-register{
+        margin-left:150px;
+        height:500px;
+    }
+    .about-form{
+        z-index:1;
+        width:400px;
+        height:200px;
+        background-color: aqua;
+        font-size:100px;
+        
+    }
+ }
